@@ -1,0 +1,47 @@
+NOTES:
+--------------
+routes > chat:
+
+
+ - chat
+    |- PostCreateRoom.js
+    |- DeleteSelfFromRoom.js
+    |- DeleteOtherFromRoom.js
+    |- PostAddUserToRoom.js
+    |- DeleteRoom.js
+    |- PostAddMessage.js
+    |- PatchMessage.js
+    |- DeleteMessage.js
+    |- PutSeenMessage
+
+SQL:
+
+|__________________________________________________|
+|                      t_chat                      |
+|__________________________________________________|
+|  id_room  |  id_message  |  id_user  |  content  |
+|___________|______________|___________|___________|
+
+id_room: INT, PRIMARY KEY, UNIQUE            (rng)
+id_message: INT                              (increment)
+id_user: INT                            
+content: TEXT
+
+|___________________________|
+|  t_chat_room_user_middle  |
+|___________________________|
+|   id_room   |   id_user   |
+|_____________|_____________|
+
+id_room: INT, PRIMARY KEY, UNIQUE            (rng)
+id_user: INT   
+
+|______________________________________|
+|      t_chat_message_seen_middle      |
+|______________________________________|
+|  id_room  |  id_user  |  id_message  |
+|___________|___________|______________|
+
+id_room: INT, PRIMARY KEY, UNIQUE            (rng)
+id_user: INT 
+id_message: INT

@@ -1,0 +1,50 @@
+NOTES:
+--------------
+routes > auth:
+
+- auth
+    | (main API command)
+    |
+    | - PostRegister.js     
+    | - GetLogin.js
+    | - GetCookieLogin.js
+    | - DeleteRemoveAccount.js
+    | - DeleteRemoveSession.js
+    |
+    | - utility
+            |  (helper functions used in multiple API)
+            |
+            | - sessionControl.js
+            | - password.js
+            | - mysql.js
+            | - jwst.js
+            | - .env
+
+SQL:
+
+|___________________________________________|
+|                  t_user                   |
+|___________________________________________|
+|  id  |  salt  |  name  |  email  |  pass  |
+|______|________|________|_________|________|
+
+id: INT, PRIMARY KEY, UNIQUE            (rng)
+salt: encrypted                         (rng)
+name: encrypted                         
+email: UNIQUE, encrypted,               
+pass: hashed, salted                    
+
+|_________________________________________________________|
+|                        t_session                        |
+|_________________________________________________________|
+|  id_session  |  id_user  |  active  |  device  |  salt  |
+|______________|___________|__________|__________|________|
+
+id_session: INT, PRIMARY_KEY, UNIQUE    (rng)
+id_user: INT, SECONDARY_KEY             (by API)
+active:
+device: hashed, salted
+salt: encrypted
+
+
+
