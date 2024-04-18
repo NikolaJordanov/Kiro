@@ -1,0 +1,88 @@
+
+.forumBorder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--black);
+    padding: 3.333vw 6.666vw;
+}
+.forumCenter{
+    width: 100%;
+    height: 100%;
+}
+.forumCenter > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forumCenter > div{
+    width: 100%;
+    height: 100vh;
+}
+.forumCenter h3{
+    text-align: center;
+}
+.inputElementGrid{
+    display: grid;
+    gap: 1.66vw;
+}
+.inputElement > .descriptionInput{
+    font-size: var(--fontSizeSmall);
+    margin-bottom: 8px;
+}
+.inputElement > input{
+    width: 12.5vw;
+    height: 1.25vw;
+}
+.inputElement > .errorText{
+    font-size: var(--fontSizeTiny);
+    height: var(--fontSizeTiny);
+    margin-bottom: calc(-1 * var(--fontSizeTiny));
+    text-align: center;
+}
+.callToAction{
+    text-align: center;
+}
+.callToAction > button{
+    padding: 0.833vw 1.66vw;
+    margin-top: 3.33vw;
+    color: white;
+    background-color: var(--primaryColor);
+}
+.forumOutsideConnectionGrid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 3.33vw;
+}
+.forumOutsideConnectionGrid > *{
+    width: 3.33vw;
+    aspect-ratio: 1;
+    background-color: var(--errorColor);
+}
+.choiceForumGrid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.choiceForumGrid > button{
+    padding: 0.833vw 2.5vw;
+}
+.outForumDetail{
+    text-align: center;
+}
+.checkboxSectionGrid{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 2px;
+}
+.checkboxElement{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+.checkboxElement > div{
+    font-size: var(--fontSizeTiny);
+}

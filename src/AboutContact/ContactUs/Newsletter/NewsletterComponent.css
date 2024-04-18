@@ -1,0 +1,29 @@
+.newsletterCenter{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--marginSection);
+}
+.newsletterGrid{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.newsletterGrid > input{
+    height: 1.67vw;
+    width: 20.833vw;
+    border-style: solid;
+    border-color: var(--black);
+    border-width: 1px;
+    padding: 0 4px;
+}
+.newsletterGrid > button{
+    all: unset;
+    height: 1.67vw;
+    width: 4.792vw;
+    border-style: solid;
+    border-color: var(--black);
+    border-width: 1px 1px 1px 0;
+    text-align: center;
+    font-size: var(--pSize);
+}

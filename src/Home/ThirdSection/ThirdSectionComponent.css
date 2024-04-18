@@ -1,0 +1,22 @@
+.thirdSectionGrid{
+    margin: 0 var(--marginBodyBig) 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.thirdSectionGrid h2 {
+    line-height: 50%;
+    text-align: left;
+}
+.thirdSectionGrid > p {
+    width: 45vw;
+}
+.CarousellePictures{
+    width: 100vw;
+    height: 33.33vw;
+    background-color: grey;
+    margin-top: var(--marginSection);
+    margin-bottom: var(--marginSection);
+}

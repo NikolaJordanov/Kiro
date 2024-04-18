@@ -1,0 +1,69 @@
+.ourTeamCenter{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 1.667vw;
+    justify-content: center;
+    gap: 1.667vw;
+}
+.ourTeamElement{
+    width: 12.5vw;
+    text-align: center;
+}
+.ourTeamElement:nth-last-child(1){
+    border-width: 1;
+}
+.ourTeamElement > button{
+    all: unset;
+    display: block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    justify-self: center;
+    font-size: var(--fontSizeTiny);
+    margin: 0 auto;
+    cursor: pointer;
+}
+.ourTeamElement > h6{
+    margin-top: 1.667vw;
+    margin-bottom: 0.833vw;
+}
+/*.ourTeamElement > p.proffession{
+    margin: 0;
+}*/
+.ourTeamElement > .image{
+    margin: 0 auto;
+    width: 6.67vw;
+    aspect-ratio: 1;
+    /*background-color: var(--errorColor);*/
+    border-radius: 100vh;
+    background-size: cover;
+}
+.ourTeamElement > .emailGrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.833vw;
+}
+.ourTeamElement > a.email{
+    margin: 0.833vw 0;
+    padding: 1px 2px;
+}
+.ourTeamElement > p.quote{
+    font-size: var(--fontSizeSmall);
+    font-style: italic;
+}
+.ourTeamElement > .otherGrid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    gap: 1.25vw;
+    margin-top: 1.25vw;
+}
+.ourTeamElement > .otherGrid > *{
+    background-color: var(--errorColor);
+    width: 2.5vw;
+    aspect-ratio: 1;
+}
+h3.noMargin, h2.noMargin{
+    text-align: center;
+    margin-top: 0;
+}

@@ -1,0 +1,7 @@
+.pageUnavailableColor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black10);
+    width: max-content;
+}

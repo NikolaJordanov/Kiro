@@ -1,0 +1,25 @@
+.contactListCenter{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+    margin: 3.75vw 0;
+
+}
+.contactElement{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 8px;
+}
+.contactElement > .icon{
+    width: 3.33vw;
+    aspect-ratio: 1;
+    /*background-color: var(--errorColor);*/
+    background-size: cover;
+    border-radius: 50vh;
+}
+.contactElement > .data{
+    margin-left: 8px;
+}

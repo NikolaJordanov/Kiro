@@ -1,0 +1,12 @@
+.partnerSectionGrid{
+    display: grid;
+    margin-bottom: var(--marginSection);
+    height: 6.25vw;
+    gap: 3.3333vw;
+    justify-content: center;
+}
+.partnerSectionGrid > *{
+    /*background-color: var(--errorColor);*/
+    width: 100%;
+    aspect-ratio: 1;
+}

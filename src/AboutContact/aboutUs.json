@@ -1,0 +1,46 @@
+{
+    "contactRender":{
+        "n": 4,
+        "media_list": ["email", "instagram", "x", "youtube"],
+        "icon_list": [
+                "url('kiro/public/img/email.svg')",
+                "url('kiro/public/img/instagram.svg')",
+                "url('kiro/public/img/x.svg')",
+                "url('kiro/public/img/youtube.svg')"
+            ],
+        "data_list": ["", "", "", ""]
+    },
+    "teamRender":{
+        "n": 6,
+        "image_list": [
+            "url('kiro/public/img/menti.svg')",
+            "url('kiro/public/img/menti.svg')",
+            "url('kiro/public/img/menti.svg')"
+        ],
+        "name_list": ["Zashef", "Zashef", "Zashef", "Zashef", "Zashef", "Zashef"],
+        "profession_list": ["CEO", "CEO", "CEO", "CEO", "CEO", "CEO"],
+        "email_list": ["kiro@kiro.com", "kiro@kiro.com", "kiro@kiro.com", "kiro@kiro.com", "kiro@kiro.com", "kiro@kiro.com"],
+        "quote_list": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        ]
+    },
+    "sectionRender":{
+        "n": 3,
+        "heading_list": ["Kiro", "Kiro", "Kiro"],
+        "text_list": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        ],
+        "image_list":[
+            null,
+            null,
+            null
+        ]
+    }
+}

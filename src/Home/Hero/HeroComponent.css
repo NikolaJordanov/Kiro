@@ -1,0 +1,47 @@
+.heroCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.heroGrid{
+    display: grid;
+    grid-template-columns: auto 31.25vw auto;
+    gap: 6.25vw;
+}
+.headingGrid{
+    padding: 1.667vw 0;
+}
+h1{
+    text-align: center;
+}
+h1.color{
+    color: var(--primaryColor);
+}
+.iconGrid{
+    display: grid;
+    margin: 3.75vw 0 0 0;
+    grid-template-columns: repeat(3, 2.5vw);
+    gap: 1.25vw;
+    justify-content: center;
+}
+.iconGrid > a{
+    border-radius: 100vh;
+    background-color: black;
+    aspect-ratio: 1;
+}
+.pictureComponent{
+    display: grid;
+    gap: 1.25vw;
+}
+.pictureComponent > *{
+    display: grid;
+    gap: 1.25vw;
+}
+.pictureComponent > * > *{
+    width: 100%;
+    background-color: var(--errorColor);
+}
+.headingGrid{
+    text-align: center;
+}

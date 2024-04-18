@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body{
+    margin: 0 0;
+    background-color: var(--mainBackgroundColor);
+
+    font-family: var(--fontMinor);
+    font-size: var(--pSize);
+}
+:root{
+    --mainBackgroundColor: #EFEEE5;
+    --primaryColor: #70CCAF;
+    --secondaryColor: #7AAA7A;
+    --black: #191C1B;
+    --black75: #565959;
+    --black50: #878888;
+    --black30: #AEAFAF;
+    --black10: #D5D5D5;
+    --errorColor: #b2b2b2;
+
+    --marginBodySmall: 5vw;
+    /*--marginBodySmall: 192px;*/
+    --marginBodyBig: 10vw;
+
+    --marginSection: 8.75vw;
+
+    --fontMajor: 'Roboto';
+    --fontMinor: 'Roboto';
+    --pSize: 1.094vw;
+    --typescale: 1.2;
+
+    --fontSizeSmall: calc(var(--pSize) * pow(var(--typescale), -1));
+    --fontSizeTiny: calc(var(--pSize) * pow(var(--typescale), -3));
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--black);
+}
+h2, h3, h4, h5, h6{
+    font-family: var(--fontMajor);
+    font-weight: bold;
+}
+h1{
+    font-size: calc(var(--pSize) * pow(var(--typescale), 7));
+    font-weight: bolder;
+    line-height: 80%;
+}
+h2{
+    font-size: calc(var(--pSize) * pow(var(--typescale), 6));
+}
+h3{
+    font-size: calc(var(--pSize) * pow(var(--typescale), 5));
+}
+h4{
+    font-size: calc(var(--pSize) *pow(var(--typescale), 3));
+}
+h5{
+    font-size: calc(var(--pSize) * pow(var(--typescale), 2));
+}
+h6{
+    font-size: calc(var(--pSize) * pow(var(--typescale), 1));
+    margin: 16px 0;
+}
+p, small{
+    font-family: var(--fontMinor);
+    color: var(--black75);
+}
+p{ 
+    font-size: var(--pSize);
+}
+p.bold{
+    font-weight: bold;
+}
+small{
+    font-size: calc(var(--pSize) * pow(var(--typescale), -4));
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+button{
+    all: unset;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--fontSizeSmall);
+}
+a, button{
+    cursor: pointer;
+}
+h3.light, h4.light{
+    font-weight: 100;
+}
+
+main.smallMargin {
+    margin: 0 var(--marginBodySmall);
+}
+main.bigMargin {
+    margin: 0 var(--marginBodyBig);
+}
+.link{
+    color: blue;
+    text-decoration: underline;
+}   

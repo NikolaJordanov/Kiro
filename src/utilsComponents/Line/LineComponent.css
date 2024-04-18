@@ -1,0 +1,6 @@
+.lineComponent{
+    margin: var(--marginSection) auto;
+    height: 1px;
+    width: 70vw;
+    background-color: var(--black10);
+}

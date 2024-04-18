@@ -1,0 +1,40 @@
+.callToActionButtons{
+    display: grid;
+    gap: 1.25vw;
+}
+.callToActionButtons.center{
+    justify-content: center;
+}
+.callToActionButtons > a{
+    all: unset;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.callToActionButtons.fill > a{
+    color: white;
+}
+.callToActionButtons.fill > a.primary{
+    background-color: var(--primaryColor);
+}
+.callToActionButtons.fill > a.secondary{
+    background-color: var(--secondaryColor);
+}
+.callToActionButtons.nofill > a{
+    color: var(--black);
+    border-style: solid;
+    border-width: 4px;
+}
+.callToActionButtons.nofill > a.primary{
+    border-color: var(--primaryColor);
+}
+.callToActionButtons.nofill > a.secondary{
+    border-color: var(--secondaryColor);
+}
+.callToActionButtons > a > div{
+    text-align: center;
+}
+.callToActionHeading{
+    text-align: center;
+}

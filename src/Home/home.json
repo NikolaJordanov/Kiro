@@ -1,0 +1,14 @@
+{
+    "partnerRender":{
+        "n": 5,
+        "name_list": ["", "", "", "", "", ""],
+        "data_list": ["", "", "", "", "", ""],
+        "image_list": [
+            "url('kiro/pubilc/img/Jameson-logo.png')`",
+            "url('kiro/pubilc/img/Jameson-logo.png')",
+            "url('kiro/pubilc/img/Jameson-logo.png')",
+            "url('kiro/pubilc/img/Jameson-logo.png')",
+            "url('kiro/pubilc/img/Jameson-logo.png')"
+        ]
+    }
+}
